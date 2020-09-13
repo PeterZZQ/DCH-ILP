@@ -4,6 +4,7 @@
 **DCH-ILP** is a parallel heuristic designed specifically for the large PPI network reconstruction.
 
 ## Dependency
+```
 Python >= 3.6
 
 gurobi >= 8.0
@@ -13,6 +14,7 @@ igraph >= 0.7.1
 networkx >= 2.4
 
 leidenalg >= 0.7.0
+```
 
 ## Usage
 Running on cluster is strongly recommended as the ILP algorithm is computationally expensive. Recommended running on a machine with at least `32GB` of RAM.
