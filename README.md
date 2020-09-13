@@ -27,7 +27,7 @@ python3 run_ILP_for_sim.py
 
 * `benchmark_lkl.ipynb` is the jupyter-notebook that benchmark the result(based on likelihood value) obtained from **DCH-ILP** algorithm and **ReverseDMC(Greedy)** algorithm. One can run `benchmark_lkl.ipynb` directly with pre-runed **DCH-ILP** solution.
 
-* `prerun_partitioning.ipynb` is the jupyter-notebook that pre-clusters the PPI network before running **DCH-ILP**. Current clustering result of the sample network is stored in `./Example_data/nG50/`
+* `prerun_partitioning.ipynb` is the jupyter-notebook that pre-clusters the PPI network before running **DCH-ILP**. Current clustering result of the sample network is stored in `./Example_data/nG50/`, sub-graph of size no larger than $11$ is recommended.
 
 * `simulation.ipynb` simulate the PPI network given network size `n_nodes`, DMC parameters `q_con` and `q_mod`.
 
